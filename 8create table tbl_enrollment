@@ -1,0 +1,1 @@
+create table tbl_enrollment (pk_int_enrollment_id integer AUTO_INCREMENT,int_count integer,fk_int_class_id integer,PRIMARY KEY(pk_int_enrollment_id),foreign key (fk_int_class_id) references tbl_classes(pk_int_class_id));
